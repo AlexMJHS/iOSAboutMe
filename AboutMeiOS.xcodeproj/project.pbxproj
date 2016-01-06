@@ -14,6 +14,12 @@
 		9E8113BE1C3D67A800C00C7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E8113BC1C3D67A800C00C7C /* LaunchScreen.storyboard */; };
 		9E8113C91C3D67A900C00C7C /* AboutMeiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8113C81C3D67A900C00C7C /* AboutMeiOSTests.swift */; };
 		9E8113D41C3D67A900C00C7C /* AboutMeiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8113D31C3D67A900C00C7C /* AboutMeiOSUITests.swift */; };
+		9E8113E31C3D699E00C00C7C /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8113E21C3D699E00C00C7C /* AboutMeViewController.swift */; };
+		9E8113E51C3D69DD00C00C7C /* SportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8113E41C3D69DC00C00C7C /* SportsViewController.swift */; };
+		9E8113E71C3D6A0500C00C7C /* VideoGamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8113E61C3D6A0500C00C7C /* VideoGamesViewController.swift */; };
+		9E8113E91C3D6A3B00C00C7C /* CookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8113E81C3D6A3B00C00C7C /* CookingViewController.swift */; };
+		9E8113EB1C3D6A5E00C00C7C /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8113EA1C3D6A5E00C00C7C /* MusicViewController.swift */; };
+		9E8113ED1C3D6A7F00C00C7C /* PhotographyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8113EC1C3D6A7F00C00C7C /* PhotographyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		9E8113CF1C3D67A900C00C7C /* AboutMeiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AboutMeiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E8113D31C3D67A900C00C7C /* AboutMeiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeiOSUITests.swift; sourceTree = "<group>"; };
 		9E8113D51C3D67A900C00C7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E8113E21C3D699E00C00C7C /* AboutMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutMeViewController.swift; sourceTree = "<group>"; };
+		9E8113E41C3D69DC00C00C7C /* SportsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SportsViewController.swift; sourceTree = "<group>"; };
+		9E8113E61C3D6A0500C00C7C /* VideoGamesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoGamesViewController.swift; sourceTree = "<group>"; };
+		9E8113E81C3D6A3B00C00C7C /* CookingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CookingViewController.swift; sourceTree = "<group>"; };
+		9E8113EA1C3D6A5E00C00C7C /* MusicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
+		9E8113EC1C3D6A7F00C00C7C /* PhotographyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotographyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +109,7 @@
 		9E8113B21C3D67A800C00C7C /* AboutMeiOS */ = {
 			isa = PBXGroup;
 			children = (
-				9E8113B31C3D67A800C00C7C /* AppDelegate.swift */,
-				9E8113B51C3D67A800C00C7C /* ViewController.swift */,
+				9E8113E11C3D67CC00C00C7C /* Controller */,
 				9E8113B71C3D67A800C00C7C /* Main.storyboard */,
 				9E8113BA1C3D67A800C00C7C /* Assets.xcassets */,
 				9E8113BC1C3D67A800C00C7C /* LaunchScreen.storyboard */,
@@ -123,6 +134,21 @@
 				9E8113D51C3D67A900C00C7C /* Info.plist */,
 			);
 			path = AboutMeiOSUITests;
+			sourceTree = "<group>";
+		};
+		9E8113E11C3D67CC00C00C7C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9E8113B51C3D67A800C00C7C /* ViewController.swift */,
+				9E8113B31C3D67A800C00C7C /* AppDelegate.swift */,
+				9E8113E21C3D699E00C00C7C /* AboutMeViewController.swift */,
+				9E8113E41C3D69DC00C00C7C /* SportsViewController.swift */,
+				9E8113E61C3D6A0500C00C7C /* VideoGamesViewController.swift */,
+				9E8113E81C3D6A3B00C00C7C /* CookingViewController.swift */,
+				9E8113EA1C3D6A5E00C00C7C /* MusicViewController.swift */,
+				9E8113EC1C3D6A7F00C00C7C /* PhotographyViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +283,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E8113B61C3D67A800C00C7C /* ViewController.swift in Sources */,
+				9E8113EB1C3D6A5E00C00C7C /* MusicViewController.swift in Sources */,
+				9E8113E91C3D6A3B00C00C7C /* CookingViewController.swift in Sources */,
+				9E8113E31C3D699E00C00C7C /* AboutMeViewController.swift in Sources */,
 				9E8113B41C3D67A800C00C7C /* AppDelegate.swift in Sources */,
+				9E8113E51C3D69DD00C00C7C /* SportsViewController.swift in Sources */,
+				9E8113ED1C3D6A7F00C00C7C /* PhotographyViewController.swift in Sources */,
+				9E8113E71C3D6A0500C00C7C /* VideoGamesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

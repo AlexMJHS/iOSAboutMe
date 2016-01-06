@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SportsViewController.swift
 //  AboutMeiOS
 //
 //  Created by Magallanes, Alejandro on 1/6/16.
@@ -8,11 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
-    @IBAction func changeToSports(sender: UIButton)
+class SportsViewController : ViewController
+{
+    
+    @IBAction func toVideoGames(sender: UIButton)
     {
-        performSegueWithIdentifier("toSports", sender:
+        performSegueWithIdentifier("toVideoGames", sender:
             sender)
     }
     override func viewDidLoad() {
@@ -23,8 +24,7 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
+}
 
 
 }
-

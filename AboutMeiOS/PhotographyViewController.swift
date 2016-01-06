@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  PhotographyViewController.swift
 //  AboutMeiOS
 //
 //  Created by Magallanes, Alejandro on 1/6/16.
@@ -8,23 +8,22 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
-    @IBAction func changeToSports(sender: UIButton)
+class PhotographyViewController : ViewController
+{
+    
+    @IBAction func toAboutMe(sender: UIButton)
     {
-        performSegueWithIdentifier("toSports", sender:
+        performSegueWithIdentifier("toAboutMe", sender:
             sender)
     }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
 
-
 }
-

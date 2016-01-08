@@ -6,9 +6,10 @@
 //  Copyright © 2016 CTEC. All rights reserved.
 //
 
+import Foundation
 import UIKit
 
-class SportsViewController : ViewController
+class SportsViewController : UIViewController
 {
     
     @IBAction func toVideoGames(sender: UIButton)

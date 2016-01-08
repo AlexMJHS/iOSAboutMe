@@ -6,9 +6,10 @@
 //  Copyright © 2016 CTEC. All rights reserved.
 //
 
+import Foundation
 import UIKit
 
-class PhotographyViewController : ViewController
+class PhotographyViewController : UIViewController
 {
     
     @IBAction func toAboutMe(sender: UIButton)

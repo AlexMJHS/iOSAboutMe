@@ -6,9 +6,10 @@
 //  Copyright © 2016 CTEC. All rights reserved.
 //
 
+import Foundation
 import UIKit
 
-class VideoGamesViewController : ViewController
+class VideoGamesViewController : UIViewController
 {
     
     @IBAction func toCooking(sender: UIButton)

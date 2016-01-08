@@ -6,9 +6,10 @@
 //  Copyright © 2016 CTEC. All rights reserved.
 //
 
+import Foundation
 import UIKit
 
-class MusicViewController : ViewController
+class MusicViewController : UIViewController
 {
     
     @IBAction func toPhotography(sender: UIButton)

@@ -6,9 +6,10 @@
 //  Copyright © 2016 CTEC. All rights reserved.
 //
 
+import Foundation
 import UIKit
 
-class CookingViewController : ViewController
+class CookingViewController : UIViewController
 {
     
     @IBAction func toMusic(sender: UIButton)
